@@ -7,10 +7,9 @@ Date of Execution:30-08-2022
 // Source Code
  #include <stdio.h>
  #include<conio.h>
- int main(){
-	printf("Hello World\n");
   void main()
 {
+        printf("HEllo WORLD");
 	int num,res=0;
 	clrscr();
 	printf("\nENTER A NUMBER: ");
