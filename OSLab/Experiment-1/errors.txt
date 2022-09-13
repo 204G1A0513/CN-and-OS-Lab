@@ -1,4 +1,15 @@
-FCFS.c:8:9: fatal error: conio.h: No such file or directory
-    8 | #include<conio.h>
-      |         ^~~~~~~~~
-compilation terminated.
+FCFS.c:8:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    8 | main()
+      | ^~~~
+FCFS.c: In function ‘main’:
+FCFS.c:12:1: warning: implicit declaration of function ‘clrscr’ [-Wimplicit-function-declaration]
+   12 | clrscr();
+      | ^~~~~~
+FCFS.c:32:1: warning: implicit declaration of function ‘getch’; did you mean ‘getc’? [-Wimplicit-function-declaration]
+   32 | getch();
+      | ^~~~~
+      | getc
+/usr/bin/ld: /tmp/cc8UzVPM.o: in function `main':
+FCFS.c:(.text+0x24): undefined reference to `clrscr'
+/usr/bin/ld: FCFS.c:(.text+0x2da): undefined reference to `getch'
+collect2: error: ld returned 1 exit status
