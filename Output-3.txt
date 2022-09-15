@@ -1,0 +1,79 @@
+// RR.c output-1
+Enter the no of processes -- 2
+
+Enter Burst Time for process 1 -- 5
+
+Enter Burst Time for process 2 -- 9
+
+Enter the size of time slice -- 6
+
+The Average Turnaround time is -- 9.500000
+The Average Waiting time is -- 2.500000 
+PROCESS  BURST TIME      WAITING TIME   TURNAROUND TIME
+        1        5               0               5 
+
+//output-2
+
+Enter the no of processes -- 3
+
+Enter Burst Time for process 1 -- 5
+
+Enter Burst Time for process 2 -- 9
+
+Enter Burst Time for process 3 -- 8
+
+Enter the size of time slice -- 5
+
+The Average Turnaround time is -- 15.333333
+The Average Waiting time is -- 8.000000
+PROCESS  BURST TIME      WAITING TIME   TURNAROUND TIME
+        1        5               0               5
+        2        9               10              19
+        3        8               14              22
+
+//output-3
+
+Enter the no of processes -- 4
+
+Enter Burst Time for process 1 -- 5
+
+Enter Burst Time for process 2 -- 9
+
+Enter Burst Time for process 3 -- 8
+
+Enter Burst Time for process 4 -- 4
+
+Enter the size of time slice -- 2
+
+The Average Turnaround time is -- 21.000000
+The Average Waiting time is -- 14.500000
+        PROCESS  BURST TIME      WAITING TIME   TURNAROUND TIME
+        1        5               12              17
+        2        9               17              26
+        3        8               17              25
+        4        4               12              16
+
+//output-4
+
+Enter the no of processes -- 5
+
+Enter Burst Time for process 1 -- 6
+
+Enter Burst Time for process 2 -- 5
+
+Enter Burst Time for process 3 -- 4
+
+Enter Burst Time for process 4 -- 7
+
+Enter Burst Time for process 5 -- 6
+
+Enter the size of time slice -- 2
+
+The Average Turnaround time is -- 23.200001
+The Average Waiting time is -- 17.600000
+        PROCESS  BURST TIME      WAITING TIME   TURNAROUND TIME
+        1        6               16              22
+        2        5               18              23
+        3        4               12              16
+        4        7               21              28
+        5        6               21              27
