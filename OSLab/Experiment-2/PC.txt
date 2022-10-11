@@ -1,0 +1,100 @@
+// Output-1 for PC.c
+
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 2
+
+Buffer is Empty
+1. Produce       2. Consume     3. Exit
+Enter your choice: 1
+
+Enter the value: 100
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 2
+
+The consumed value is 100
+1. Produce       2. Consume     3. Exit
+Enter your choice: 1
+
+Enter the value: 200
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 1
+
+Enter the value: 300
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 2
+
+The consumed value is 200
+1. Produce       2. Consume     3. Exit
+Enter your choice: 3
+
+//output-2 for PC.c
+
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 1
+
+Enter the value: 256
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 1
+
+Enter the value: 32
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 1
+
+Enter the value: 256
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 2
+
+The consumed value is 256
+1. Produce       2. Consume     3. Exit
+Enter your choice: 3
+
+//output-3 for PC.c
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 1
+
+Enter the value: 28
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 1
+
+Enter the value: 54
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 2
+
+The consumed value is 28
+1. Produce       2. Consume     3. Exit
+Enter your choice: 3
+
+//output-4 for PC.c
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 1
+
+Enter the value: 36
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 1
+
+Enter the value: 58
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 1 
+
+Enter the value: 24
+
+1. Produce       2. Consume     3. Exit
+Enter your choice: 2
+
+The consumed value is 36
+1. Produce       2. Consume     3. Exit
+Enter your choice: 3
