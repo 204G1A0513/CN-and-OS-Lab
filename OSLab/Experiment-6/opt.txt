@@ -1,0 +1,96 @@
+//OUTPUT-1 for opt.c
+
+Enter length of the reference string: 12
+Enter the reference string: 1 2 3 4 1 2 5 1 2 3  4 5
+Enter no of frames: 3
+1       -1      -1
+1       2       -1
+1       2       3
+1       2       4
+1       2       4
+1       2       4
+1       2       5
+1       2       5
+1       2       5
+3       2       5
+4       2       5
+4       2       5
+Number of page faults : 7
+Page fault rate = 58.333332
+
+
+//OUTPUT-2 for opt.c
+
+
+Enter length of the reference string: 19
+Enter the reference string: 1 5 8 7 9 5 6 7 2 6 7 2 4 3 5 8 9 5 7
+Enter no of frames: 3
+1       -1      -1
+1       5       -1
+1       5       8
+7       5       8
+7       5       9
+7       5       9
+7       5       6
+7       5       6
+7       2       6
+7       2       6
+7       2       6
+7       2       6
+7       4       6
+7       3       6
+7       5       6
+7       5       8
+7       5       9
+7       5       9
+7       5       9
+Number of page faults : 12
+Page fault rate = 63.157890
+
+//OUTPUT-3 for opt.c
+
+Enter length of the reference string: 15
+Enter the reference string: 1 2 6 5 3 5 9 5 7 5 8 4 5 6 8
+Enter no of frames: 3
+1       -1      -1
+1       2       -1
+1       2       6
+5       2       6
+5       3       6
+5       3       6
+5       9       6
+5       9       6
+5       7       6
+5       7       6
+5       8       6
+5       4       6
+5       4       6
+5       4       6
+8       4       6
+Number of page faults : 10
+Page fault rate = 66.666672
+
+
+//OUTPUT-4 for opt.c
+
+Enter length of the reference string: 16
+Enter the reference string: 1  5 7 9 86 4 5 7 6 3 8 5 2 7 3 8
+Enter no of frames: 3
+1       -1      -1
+1       5       -1
+1       5       7
+9       5       7
+86      5       7
+4       5       7
+4       5       7
+4       5       7
+6       5       7
+3       5       7
+8       5       7
+8       5       7
+8       2       7
+8       2       7
+8       3       7
+8       3       7
+Number of page faults : 11
+Page fault rate = 68.750000
