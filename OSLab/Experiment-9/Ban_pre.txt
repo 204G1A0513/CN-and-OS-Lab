@@ -1,0 +1,37 @@
+//OUTPUT-1 for Ban_pre.c
+
+Enter no of jobs: 2
+Enter name and time: A 2
+Enter name and time: B 7
+Enter the available resources:10
+ABSafe sequence is:A 2,B 7
+
+//OUTPUT-2 for Ban_pre.c
+
+Enter no of jobs: 3
+Enter name and time: A 2
+Enter name and time: B 1
+Enter name and time: C 4
+Enter the available resources:10
+BACSafe sequence is:B 1,A 2,C 4
+
+//OUTPUT-3 for Ban_pre.c
+
+Enter no of jobs: 4
+Enter name and time: A 1
+Enter name and time: B 4
+Enter name and time: C 2
+Enter name and time: D 3
+Enter the available resources:20
+ACDBSafe sequence is:A 1,C 2,D 3,B 4
+
+//OUTPUT-4 for Ban_pre.c
+
+Enter no of jobs: 5
+Enter name and time: A 32
+Enter name and time: B 21
+Enter name and time: C 12
+Enter name and time: D 13
+Enter name and time: E 23
+Enter the available resources:50
+CDBEASafe sequence is:C 12,D 13,B 21,E 23,A 32
