@@ -26,6 +26,3 @@ Available resources are:   9   3   6
 Process 1 executed?:y
 System is in safe mode
 The given state is safe state
-
-//OUTPUT-2 for Ban_avoi.can
-
